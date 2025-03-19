@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div id="navbar">
+        <!-- titlebar -->
+        <a id="shopsmart" href="#" class="title">shopsmart.com</a>
+        <a id="update" href="index.html" class="title">goto home!</a>
+        <input type="text" placeholder="search for a product..." id="search">
+        <button id="button">search</button>
+        <a id="ro" href="aboutus.html" class="title">about us</a>
+        <a id="cart" href="cart.html" class="title">your cart</a>
+     </div>
+
+     <center>
+        <a href="information16.html"  id="link" class="types">
+            <img src="img/womenclothes/wc2.jpg" alt="mixture"><br><br> 
+            Women's Kanjivaram cotton black Saree, With Blouse Piece.
+            <br>
+            <h3>4,999/- <s>5,499/-</s></h3>
+        </a>
+         <form action="order.html">
+            
+            <h3> enter your details : </h3>
+            <br><br>
+             name: <input type="text" name="address" required>
+             <br>
+             address: <input type="text" name="address" required>
+             <br>
+             mobile no: <input type="text" name="number" minlength="10" maxlength="10" required pattern="{0-9}">
+             <br>
+             email id: <input type="email" name="email">
+             <br>
+             pin code: <input type="text" name="code" minlength="6" maxlength="6" required>
+             <br>
+             enter your delievery type: <br>
+             <input type="radio" id="jani" name="jani" value="1">
+             <label>fast delievery</label>
+             <input type="radio" id="jani" name="jani" value="2">
+             <label>normal delievery</label>
+             <br>
+             otp will be sent on:<br>
+             <input type="checkbox" id="jani" name="jani" value="3">
+             <label>email</label>
+             <input type="checkbox" id="jani" name="jani" value="3">
+             <label>mobile no</label>
+
+             <br>
+             <input type="submit" name="submit">
+             <br>
+         </form>
+     </center>
+     <footer id="cartfooter"> Conditions of Use & Sale  Privacy Notice  Interest-Based Ads<br>
+        © 1996-2025, shopsmart.com, Inc. or its affiliates</footer>
+</body>
+</html>
