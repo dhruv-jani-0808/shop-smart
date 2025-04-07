@@ -21,7 +21,7 @@ a:hover {
 }    
 #shopsmart {
     color: white;
-    font-size: 50px;
+    font-size: 5.75vh;
 }
 
 #search {
@@ -51,7 +51,7 @@ font-size: large;
     margin-left: 10px;
     border: 2px, solid, black;
     text-decoration: none;
-    margin-top: 70px;
+    margin-top: 7.75vh;
 }
 img {
     height: 28vh;
